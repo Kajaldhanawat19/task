@@ -1,0 +1,127 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Forms */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #343a40;
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  list-style-type: none;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f8f9fa;
+}
+
+/* Footer */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
